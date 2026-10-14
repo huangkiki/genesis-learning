@@ -1,4 +1,6 @@
-# Genesis 两条学习路线
+# Genesis Learning 两条学习路线
+
+新增共同前置入口：[读懂 DexLab 的 Genesis 配置](solver-reading-guide.md)。适合已有 VLA/WAM/RL 经验、需要建立物理模型与数值配置判断能力的读者，衔接 A4、B2–B4 及 E6；来源/静态验证见[本轮验收](learning-migration-acceptance.md)，不替代原生运行。**E7 完整安装与全路线审校仍暂停，本轮只推进改名与 solver 教程。**
 
 [首篇导读](guide.md)已经建立对象关系和核心入口，[E1 专题](modeling-state-time.md)已展开建模、状态与时间；[E2 专题](control-robotics-tasks.md)已展开驱动、机器人与任务接口；[E3 专题](contact-solvers-forces.md)已展开刚体接触、求解与力观测，并界定其他物理分支；[E4 专题](sensors-rendering.md)已展开传感器、渲染、坐标/shape与观测时序；[E5 专题](batch-learning-data.md)已展开批量/学习契约、数据回放、随机化与性能/扩展边界；[E6 专题](extensions-boundaries.md)已展开多物理消费者、耦合/可微内部、热/触觉模型及扩展能力追踪；完整 A0 安装与 E7 综合审校仍待完成。[源码地图](source-map.md)提供固定提交入口。
 

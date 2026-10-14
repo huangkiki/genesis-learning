@@ -1,6 +1,6 @@
 # E3 验收与后续任务
 
-对应 [Issue #4](https://github.com/huangkiki/genesis-atlas/issues/4)，从已发布E2的main `02119f7226bd99c57e4ba1166bba1be09c6afb8a` 开始。E1前置章节已实际存在于该base，未仅凭Issue状态推断。记录日期：2026-10-09。
+对应 [Issue #4](https://github.com/huangkiki/genesis-learning/issues/4)，从已发布E2的main `02119f7226bd99c57e4ba1166bba1be09c6afb8a` 开始。E1前置章节已实际存在于该base，未仅凭Issue状态推断。记录日期：2026-10-09。
 
 交付 [接触、求解器与力观测](contact-solvers-forces.md)与原创 [contact_readback.py](../examples/contact_readback.py)，同步中英README、课程、roadmap和来源manifest。README正文Sim Atlas名称链接系列总仓。没有复制第三方资产或代码，原创示例沿用本仓Apache-2.0许可。
 

@@ -347,7 +347,7 @@ $$
 17. **订阅GEOMETRY会通知质量变化吗？** 不会；模型参数不属于该StateChange类别，内部数组直写也不会自动通知。
 18. **刚体loss有梯度证明接触拓扑处处光滑吗？** 不证明；伴随系统按当前active set求局部导数，切换和求解误差仍有影响。
 
-对应 [Issue #7](https://github.com/huangkiki/genesis-atlas/issues/7)，最终静态检查及限制见 [E6 验收记录](e6-acceptance.md)。下一项 E7 将完善 A0 安装、双路线整体审校和 DexLab 复用入口；不会把本章源码能力表换成未做过的实验结论。
+对应 [Issue #7](https://github.com/huangkiki/genesis-learning/issues/7)，最终静态检查及限制见 [E6 验收记录](e6-acceptance.md)。下一项 E7 将完善 A0 安装、双路线整体审校和 DexLab 复用入口；不会把本章源码能力表换成未做过的实验结论。
 
 [dispatch]: https://github.com/Genesis-Embodied-AI/genesis-world/blob/216a708e06124595521a9d36a51fae5393fd4ff8/genesis/engine/simulator.py#L77-L158
 [base-solver]: https://github.com/Genesis-Embodied-AI/genesis-world/blob/216a708e06124595521a9d36a51fae5393fd4ff8/genesis/engine/solvers/base_solver.py#L314-L388

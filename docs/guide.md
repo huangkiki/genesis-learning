@@ -2,6 +2,8 @@
 
 阅读基线：`216a708e06124595521a9d36a51fae5393fd4ff8`，来源为官方固定源码。本篇是对象与关键机制导读，完整专题仍在开发；本轮仅做源码/文档核对，没有运行仿真实验。
 
+从 DexLab 配置表进入的读者，先读[solver 配置解读](solver-reading-guide.md)，再沿本导读进入对象与源码；两篇共同服务于当前的[课程路线](curriculum.md)。
+
 ## 1. 初始化、场景与实体
 
 [gs.init](https://github.com/Genesis-Embodied-AI/genesis-world/blob/216a708e06124595521a9d36a51fae5393fd4ff8/genesis/__init__.py) 设置全局运行环境；本版本 precision 使用字符串 `"32"` 或 `"64"`，backend 是另一项选择。场景由 [Scene](https://github.com/Genesis-Embodied-AI/genesis-world/blob/216a708e06124595521a9d36a51fae5393fd4ff8/genesis/engine/scene.py) 组织，内部 [Simulator](https://github.com/Genesis-Embodied-AI/genesis-world/blob/216a708e06124595521a9d36a51fae5393fd4ff8/genesis/engine/simulator.py) 负责不同求解器的调度。实体、材料、morph、surface 不能视作同一种对象。
