@@ -1,6 +1,6 @@
 # E6 验收与后续任务
 
-对应 [Issue #7](https://github.com/huangkiki/genesis-atlas/issues/7)，从已发布 E5 的 main `23757e16d14e9895cbb3abfae0f3c9d599a53b6b` 开始；本地与 origin/main 一致、工作树干净，E3 文档及提交祖先已核实。实现分支 `docs/e6-extensions-boundaries`。记录日期：2026-10-09。
+对应 [Issue #7](https://github.com/huangkiki/genesis-learning/issues/7)，从已发布 E5 的 main `23757e16d14e9895cbb3abfae0f3c9d599a53b6b` 开始；本地与 origin/main 一致、工作树干净，E3 文档及提交祖先已核实。实现分支 `docs/e6-extensions-boundaries`。记录日期：2026-10-09。
 
 交付 [多物理、可微与扩展边界](extensions-boundaries.md)及原创 [extensions_api.py](../examples/extensions_api.py)，更新中英 README、导读、课程、roadmap、源码地图和 manifest；保留 Sim Atlas 系列首页。第三方源码只留独立阅读缓存，没有复制到仓库。原创接口片段沿用本仓 Apache-2.0 许可。
 

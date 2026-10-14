@@ -1,4 +1,6 @@
-# Genesis autodev 路线
+# Genesis Learning autodev 路线
+
+当前工作：[Learning 迁移与 solver 教程](https://github.com/huangkiki/sim-learning/issues/1)。本仓交付[配置解读](solver-reading-guide.md)与[静态验收记录](learning-migration-acceptance.md)，沿用既有 1.4.3 源码基线；E7 保持暂停。下方 E1–E6 复盘是历史记录，其中“下一项”不构成恢复 E7 的指令。
 
 一个阶段对应一个可恢复的 GitHub Issue；总看板统一管理六仓，仓库保留本引擎的原生设计。先查同题 Issue/PR 和实际合入状态，再继续工作。
 
@@ -11,7 +13,7 @@
 | E4 | 传感器、渲染与可视化专题 | E1 | [专题与验收记录已交付](e4-acceptance.md)（源码/语法；未运行/渲染） |
 | E5 | 批量、学习接口与数据专题 | E2、E4 | [专题与验收记录已交付](e5-acceptance.md)（源码/语法；未运行/训练/测性能） |
 | E6 | 引擎特色、扩展与能力边界专题 | E3 | [专题与验收记录已交付](e6-acceptance.md)（源码/语法；未运行/反传/测性能） |
-| E7 | 完整A0安装、双路线课程审校与 DexLab 复用入口 | E2–E6 | 待开发 |
+| E7 | 完整A0安装、双路线课程审校与 DexLab 复用入口 | E2–E6 | 暂停，独立后续待办 |
 
 E0 交付的是导读与导航，不是所有专题。E1–E6 逐个展开目录中的知识点，E7 按完整课程契约审校。依赖必须以实际文档或合入提交核实，不能仅凭 Issue 关闭。
 

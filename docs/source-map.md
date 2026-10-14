@@ -1,4 +1,6 @@
-# genesis-atlas 固定版本源码入口
+# Genesis Learning 固定版本源码入口
+
+[Solver 配置解读](solver-reading-guide.md)按角色索引 DexLab 的 Genesis 名称；新增 PBD Cloth 材料、选项导出和版本声明的文件身份见 [sources.json](sources.json)，来源与静态核对见[本轮验收](learning-migration-acceptance.md)。
 
 阅读基线：`216a708e06124595521a9d36a51fae5393fd4ff8`。以下入口已核对官方 Git 树与文件内容身份；不是全仓审查或运行验收记录。
 

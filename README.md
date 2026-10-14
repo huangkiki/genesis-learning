@@ -1,12 +1,14 @@
-# Genesis Atlas
+# Genesis Learning
 
 **理解 Genesis 的建模、控制、物理机制与源码实现。**
 
-[English](README.en.md) · [入门导读](docs/guide.md) · [完整课程路线](docs/curriculum.md) · [源码地图](docs/source-map.md) · [版本](docs/versions.md) · [开发任务](docs/roadmap.md) · [系列学习首页](https://github.com/huangkiki/sim-atlas) · [六仓总看板](https://github.com/users/huangkiki/projects/2)
+[English](README.en.md) · [入门导读](docs/guide.md) · [Solver 配置解读](docs/solver-reading-guide.md) · [完整课程路线](docs/curriculum.md) · [源码地图](docs/source-map.md) · [版本](docs/versions.md) · [开发任务](docs/roadmap.md) · [系列学习首页](https://github.com/huangkiki/sim-learning) · [六仓总看板](https://github.com/users/huangkiki/projects/2)
 
-这是 **[Sim Atlas · 仿真图谱](https://github.com/huangkiki/sim-atlas)** 的独立社区学习仓库，重点覆盖 Scene/Simulator/Entity、刚体与多物理求解器、批量环境、渲染与可微限制。
+这是 **[Sim Learning · 仿真学习](https://github.com/huangkiki/sim-learning)** 的独立社区学习仓库，重点覆盖 Scene/Simulator/Entity、刚体与多物理求解器、批量环境、渲染与可微限制。
 
 提供两条完整路线：**A 应用路线**从对象与建模走向控制、机器人、传感器、学习接口与数据；**B 原理与源码路线**解释动力学、接触模型、求解器、积分、观测及扩展。当前已交付首篇导读、固定版本源码地图，[E1 建模、坐标、状态与时间](docs/modeling-state-time.md)、[E2 驱动、机器人与任务接口](docs/control-robotics-tasks.md)、[E3 接触、求解器与力观测](docs/contact-solvers-forces.md)、[E4 传感器、渲染与可视化](docs/sensors-rendering.md)、[E5 批量、学习接口与数据](docs/batch-learning-data.md)及 [E6 多物理、可微与扩展边界](docs/extensions-boundaries.md)专题；完整课程仍在开发。
+
+面向有 VLA、WAM、RL 经验的工程师与硕博，新增[读懂 DexLab 的 Genesis 配置](docs/solver-reading-guide.md)：先分清 PBD、非线性 CG/Newton、摩擦锥、接触模型、耦合与积分，再进入原生源码。完整中文正文配英文术语与摘要；本轮仅做来源与静态检查，E7 安装和全路线运行验收仍暂停。改名及来源记录见[本轮验收](docs/learning-migration-acceptance.md)。
 
 ## 从这里开始
 
@@ -24,6 +26,6 @@
 
 ## 维护与来源
 
-每章保留原生 API、版本化来源、易错点和阅读练习。各 Atlas 仓库独立，不需要安装其他 Atlas 或 DexLab。教程进度和 DexLab 实验证据覆盖分别记录，不据此给引擎排名。
+每章保留原生 API、版本化来源、易错点和阅读练习。各 Learning 仓库独立，无需安装其他课程仓库或 DexLab。教程进度和 DexLab 实验证据覆盖分别记录，不据此给引擎排名。
 
 [官方源码基线](https://github.com/Genesis-Embodied-AI/genesis-world/tree/216a708e06124595521a9d36a51fae5393fd4ff8) · [贡献](CONTRIBUTING.md) · [来源与许可](THIRD_PARTY.md)

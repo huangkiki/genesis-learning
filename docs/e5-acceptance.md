@@ -1,6 +1,6 @@
 # E5 验收与后续任务
 
-对应 [Issue #6](https://github.com/huangkiki/genesis-atlas/issues/6)，从已发布 E4 的 main `4a3221eee0261d92fcf2ad912a707641e13836ad` 开始；本地与 origin/main 一致、工作树干净，E2/E4 文档与提交祖先已核实。实现分支 `docs/e5-batch-learning-data`。记录日期：2026-10-09。
+对应 [Issue #6](https://github.com/huangkiki/genesis-learning/issues/6)，从已发布 E4 的 main `4a3221eee0261d92fcf2ad912a707641e13836ad` 开始；本地与 origin/main 一致、工作树干净，E2/E4 文档与提交祖先已核实。实现分支 `docs/e5-batch-learning-data`。记录日期：2026-10-09。
 
 交付 [批量、学习接口与数据](batch-learning-data.md)与原创 [batch_data_api.py](../examples/batch_data_api.py)，更新中英 README、导读、课程、roadmap 和来源表；保留 Sim Atlas 系列首页。无第三方源码或资产复制进入仓库，原创片段沿用本仓 Apache-2.0 许可。
 

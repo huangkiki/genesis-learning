@@ -1,6 +1,6 @@
 # E4 验收与后续任务
 
-对应 [Issue #5](https://github.com/huangkiki/genesis-atlas/issues/5)，从已发布E3的main `444aa79fb26a15dd8fcaf4c7be7a3ae4482913bf` 开始；本地main与origin/main一致、工作树干净，E1建模/状态/时间章节已在base中。实现分支 `docs/e4-sensors-rendering`。记录日期：2026-10-09。
+对应 [Issue #5](https://github.com/huangkiki/genesis-learning/issues/5)，从已发布E3的main `444aa79fb26a15dd8fcaf4c7be7a3ae4482913bf` 开始；本地main与origin/main一致、工作树干净，E1建模/状态/时间章节已在base中。实现分支 `docs/e4-sensors-rendering`。记录日期：2026-10-09。
 
 交付 [传感器、渲染与可视化](sensors-rendering.md)及原创 [sensor_rendering_api.py](../examples/sensor_rendering_api.py)，更新中英README、导读、课程/roadmap和来源表。Sim Atlas系列首页链接保留。无第三方代码或资产复制，原创片段沿用本仓Apache-2.0许可。
 

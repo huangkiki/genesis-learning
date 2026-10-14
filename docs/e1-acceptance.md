@@ -1,6 +1,6 @@
 # E1 验收与后续任务
 
-对应 [Issue #2](https://github.com/huangkiki/genesis-atlas/issues/2)。先修 E0 已在默认分支 `4fa7a76e7ebbd4e9b58b7c04f277527af32d7450`；本阶段从该提交开始，交付 [建模、坐标、状态与时间](modeling-state-time.md)和 [原生 API 阅读片段](../examples/state_layout.py)。记录日期：2026-10-09。
+对应 [Issue #2](https://github.com/huangkiki/genesis-learning/issues/2)。先修 E0 已在默认分支 `4fa7a76e7ebbd4e9b58b7c04f277527af32d7450`；本阶段从该提交开始，交付 [建模、坐标、状态与时间](modeling-state-time.md)和 [原生 API 阅读片段](../examples/state_layout.py)。记录日期：2026-10-09。
 
 ## 验收契约
 

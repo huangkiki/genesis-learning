@@ -1,6 +1,6 @@
 # E2 验收与后续任务
 
-对应 [Issue #3](https://github.com/huangkiki/genesis-atlas/issues/3)。先修E1已在main提交 `50a029b32dd1de3e1c63ce17e705013ae995a3a4` 实际交付；本阶段从该提交开始。记录日期：2026-10-09。
+对应 [Issue #3](https://github.com/huangkiki/genesis-learning/issues/3)。先修E1已在main提交 `50a029b32dd1de3e1c63ce17e705013ae995a3a4` 实际交付；本阶段从该提交开始。记录日期：2026-10-09。
 
 交付 [驱动、机器人与任务接口](control-robotics-tasks.md)、[原生阅读片段](../examples/control_kinematics.py)及 [原创URDF](../examples/assets/two_joint_arm.urdf)。无第三方资产复制，原创文件随本仓Apache-2.0许可。
 

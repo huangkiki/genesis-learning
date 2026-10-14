@@ -282,7 +282,7 @@ $$
 15. **所有 Scene.timings 相加是否得到训练耗时？** 不能，phase 可嵌套、GPU异步，外部策略/任务代码在 step 之外。
 16. **异构 morph 支持不同 DOF 数的机器人吗？** 不支持该用法；固定 description 检查同 link/joint/DOF结构并拒绝多根，变体几何和惯量不是任意拓扑替换。
 
-对应 [Issue #6](https://github.com/huangkiki/genesis-atlas/issues/6)，检查与剩余边界见 [E5 验收记录](e5-acceptance.md)。来源身份统一收录 [sources.json](sources.json) 与[源码地图](source-map.md)；E6 继续多物理、可微与特色子系统，E7 再审校完整课程及 DexLab 复用入口。
+对应 [Issue #6](https://github.com/huangkiki/genesis-learning/issues/6)，检查与剩余边界见 [E5 验收记录](e5-acceptance.md)。来源身份统一收录 [sources.json](sources.json) 与[源码地图](source-map.md)；E6 继续多物理、可微与特色子系统，E7 再审校完整课程及 DexLab 复用入口。
 
 [parallel]: https://github.com/Genesis-Embodied-AI/genesis-world/blob/216a708e06124595521a9d36a51fae5393fd4ff8/genesis/engine/scene.py#L894-L944
 [sim-step]: https://github.com/Genesis-Embodied-AI/genesis-world/blob/216a708e06124595521a9d36a51fae5393fd4ff8/genesis/engine/simulator.py#L345-L376
